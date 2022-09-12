@@ -220,13 +220,13 @@ btnPlay.onclick = () => {
   if (time === 99999999) {
     time = 300;
     step();
-  } 
+  }
 }
 
 btnFast.onclick = () => {
   if (time === 300 || time === 99999999) {
     console.log('快')
-    time = 50;
+    time = 10;
     step();
   } else {
     return
